@@ -1,7 +1,7 @@
 ### Hi there 👋
 I'm an empty space, yet I have something to share.
 
-# Preferences
+### Preferences
 <pre>
 [tools.everyday]
 OS = "<a href="https://manjaro.org/">https://manjaro.org/</a>"
