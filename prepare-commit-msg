@@ -1,0 +1,18 @@
+#! /bin/bash
+set -euo pipefail
+
+# Setup:
+# ln -sf ../../prepare-commit-msg .git/hooks/prepare-commit-msg
+
+MSG_FILE=$1
+MSG_SOURCE=${2:-}
+
+# Exit if a message is explicitly given.
+[[ $MSG_SOURCE == "message" ]] && exit 0
+
+# Print added or modified files' names separated with ",".
+FILES=$(git diff --cached --name-only --diff-filter=AM | awk 'ORS=", "' | head -c -2)
+MSG="Work on $FILES"
+
+# Prepend MSG line to the file.
+sed -i "1s;^;$MSG\n;" "$MSG_FILE"
