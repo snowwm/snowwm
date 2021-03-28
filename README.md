@@ -18,3 +18,11 @@ messenger = "<a href="https://telegram.org/">https://telegram.org/</a>"
 music = "<a href="https://mega.nz/folder/Yp9CBSYY#VyJxK0Ay_fL-cilg22WXiA">https://mega.nz/folder/Yp9CBSYY#VyJxK0Ay_fL-cilg22WXiA</a>"
 game = "<a href="https://www.minecraft.net/">https://www.minecraft.net/</a>"
 </pre>
+
+### Done right
+I'm an extremely finicky person.
+I love readings like ["Encyclopedia of things considered harmful"](http://harmful.cat-v.org/).
+My pipe dream is to [remake](https://github.com/snowwm/snowwm/tree/main/sweps) all the world from the ground up the way I like.
+
+Nonetheless, I recognize that some software is *done right* (or at least having some non-trivial *right seed*).
+I try to gather these rare species in my GitHub [stars list](https://github.com/snowwm?tab=stars).
