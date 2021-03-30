@@ -7,8 +7,8 @@ set -euo pipefail
 MSG_FILE=$1
 MSG_SOURCE=${2:-}
 
-# Exit if a message is explicitly given.
-[[ $MSG_SOURCE == "message" ]] && exit 0
+# Exit if a message is given.
+[[ $MSG_SOURCE ]] && exit 0
 
 # Print added or modified files' names separated with ",".
 FILES=$(git diff --cached --name-only --diff-filter=AM | awk 'ORS=", "' | head -c -2)
