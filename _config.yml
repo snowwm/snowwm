@@ -1,0 +1,28 @@
+title: "snowwm's place"
+description: "snowwm's place"
+color_scheme: "red"
+
+aux_links:
+  "snowwm on GitHub":
+    - "https://github.com/snowwm/"
+
+gh_edit_link: true
+gh_edit_link_text: "View this page on GitHub"
+gh_edit_repository: "https://github.com/snowwm/snowwm"
+gh_edit_branch: "main"
+gh_edit_view_mode: "tree"
+
+defaults:
+  - scope:
+      path: "sweps"
+    values:
+      nav_exclude: true
+  - scope:
+      path: "sweps/README.md"
+    values:
+      nav_exclude: false
+
+remote_theme: "pmarsceill/just-the-docs"
+
+plugins:
+  - "jemoji"
