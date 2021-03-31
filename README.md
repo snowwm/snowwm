@@ -27,5 +27,5 @@ I'm an extremely finicky person.
 I love readings like ["Encyclopedia of things considered harmful"](http://harmful.cat-v.org/).
 My pipe dream is to [remake](sweps) all the world from the ground up the way I like.
 
-Nonetheless, I recognize that some software is *done right* (or at least having some non-trivial *right seed*).
+Nonetheless, I recognize that some software is *done right* (or has some non-trivial *right seed*, or otherwise inspires respect to me).
 I try to gather these rare species in my GitHub [stars list](https://github.com/snowwm?tab=stars).

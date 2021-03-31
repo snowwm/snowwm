@@ -1,4 +1,4 @@
-# SWEP Purpose and Guidelines
+# SWEP 1 :: SWEP Purpose and Guidelines
 
 [//]: # (GFM doesn't allow tables without headers -> I use an empty header)
 
