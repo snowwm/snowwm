@@ -14,12 +14,11 @@ messenger = "<a href="https://telegram.org/">https://telegram.org/</a>"
 "programming language" = "<a href="https://www.python.org/">https://www.python.org/</a>"
 "config language" = "<a href="https://toml.io/">https://toml.io/</a>"
  
-["personal interests"]
+[personal]
+color = "red"
 music = "<a href="https://mega.nz/folder/Yp9CBSYY#VyJxK0Ay_fL-cilg22WXiA">https://mega.nz/folder/Yp9CBSYY#VyJxK0Ay_fL-cilg22WXiA</a>"
 game = "<a href="https://www.minecraft.net/">https://www.minecraft.net/</a>"
-
-[miscellanous]
-color = "red"
+https://mega.nz/folder/MtFUVJ4S#M-uROuoz8bxE6rddM7mBwA
 </pre>
 
 ### "Done right"
