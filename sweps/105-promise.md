@@ -38,10 +38,6 @@ promise-meta
     	- defines only behavior, not implementation
     	- parameterization
     	- namespaces
-    	- example
-		@none - standard namespace
-		aaa/bbb - local
-		/example/com/bbb - namespaced
 
 - separation of intent and interface
   - example: iptables and nftables share the same intent; an application may understand one or both interfaces
@@ -53,27 +49,20 @@ promise-meta
 [human interface]
 - maximally straightforward mappings between human- and machine-readable objects or (trans)actions
 
-- a metaphor of programs being bots (guests, workers in a house) (https://www.inkandswitch.com/end-user-programming.html#bots)
+- a metaphor of programs being bots (guests/workers in a house) (https://www.inkandswitch.com/end-user-programming.html#bots)
 
 - first-class _semantics_
   - every object or (trans)action has: some environment, purpose, why it was done _that_ way, etc.
   - example: why the package was installed
 
-- universal grouping
-    - interchangeable groups and objects
-    - hierarchy, inheritance
-    - example: trip luggage list may have groups of items and groups of destinations, with filtering based on these
 
 
-promise-os
 
-[meta:resources]
-- `asana:fs`: https://invent.life/blog/on-organizing-projects-and-files/
 
-[ui]
-- hardware LED indicating interaction with the system
+promise-components
 
 [fs]
+- `asana:fs`: https://invent.life/blog/on-organizing-projects-and-files/
 - read-only hash-addressed object storage
 - tags
     - example: ::mime(text) ::project(promise-fs) ::type(source-file)
@@ -81,13 +70,10 @@ promise-os
 - well-known tags
     - see promise-meta#well-known
 - queries
-    - basically,  a set of tags
+    - basically, a set of tags
 - mounts
     - queries can be mounted in a traditional tree shape
-    - can inherit parent's props or start a new context (essentially a symlink)
-
-
-promise-components
+    - can extend parent's context or start a new one (essentially a symlink)
 
 [ui]
 - intermediate language:
@@ -99,14 +85,27 @@ promise-components
 
 - widgets toolkit
 
+- shortcuts
+
+- hardware LED indicating direct interaction with the system
+
 [shell]
 see perl
 
 [connectivity]
 
+[sync]
+
 [permissions]
 
-[scheduler]
+[config]
+
+[entities]
+- entities have features (tags)
+- policies select entitites based on features
+- collections are entities
+- hierarchy, inheritance
+- example: trip luggage list may have groups of items and groups of destinations, with filtering based on these
 
 [metadata]
 unify:
@@ -120,3 +119,5 @@ unify:
 peel and stack metadata containers
 layer sharing
 semantic copy/move/edit
+
+[scheduler]
